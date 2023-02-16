@@ -1,0 +1,126 @@
+
+     body{
+        margin: 100px auto;
+        width: 50vw;
+      
+       }
+
+      ul{
+        list-style: none;
+        text-align: end; 
+      }
+      li{
+        display: inline;
+      
+      }
+      li a{
+        text-decoration: none;
+        color: rgb(102, 91, 91);
+        padding: 5px;
+    
+      }
+     
+
+      .grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 300px 150px 100px;
+        row-gap: 5px;
+        column-gap: 20px;
+        grid-template-areas:
+         'one one four'
+         'two three four'
+         'five six seven'
+         'eight eight eight';
+        background-color: white;
+
+      }
+      .grid-item{
+        display: inline-block;
+        /* padding: 30px; */
+        border-radius: 16px;
+      }
+    
+ 
+       .one{
+        grid-area: one;
+      } 
+       .two{
+        grid-area: two;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      } 
+      .three{
+        grid-area: three;
+        color: rgba(128, 128, 128, 0.788);
+      }
+
+       .four{
+        grid-area: four;
+        width: 250px;
+        background-color: rgb(3, 3, 32);
+        border-radius: 1px;
+        height: 380px;
+        padding-left: 5px;
+      } 
+      .five{
+        grid-area: five;
+        display: flex;
+        /* flex-direction: row; */
+      }
+      .six{
+        grid-area: six;
+        display: flex;
+      }
+      .seven{
+        grid-area: seven;
+        display: flex;
+      }  
+      .eight{
+        grid-area: eight;
+      }
+      .first{
+        font-size: 20px;
+        color: rgb(172, 172, 11);
+      }
+      .same{
+        font-size: 16px;
+        color: white;
+      }
+      button{
+        width: 200px;
+        background-color: rgb(231, 15, 15);
+        border: none;
+        color: white;
+        height: 40px;
+        border-radius: 10px;
+      }
+      .abi{
+        padding-left: 10px;
+        padding-top: 5px;
+        line-height: none;
+      }
+      .yes{
+        padding-left: 10px;
+        padding-top: 5px;
+      }
+      .okay{
+        padding-left: 10px;
+      }
+      .revive{
+        font-weight: bolder;
+      }
+    .para{
+      font-size: 16px;
+      color:rgba(177, 169, 169);
+    }
+    .what{
+      color:rgba(177, 169, 169);
+      font-size: small;
+    }
+    .will{
+      color: grey;
+      font-size: small;
+    }
